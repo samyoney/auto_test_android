@@ -413,7 +413,7 @@ fun ViewInteraction.containsDrawable(
     val isSuccess = Helper.handleViewAssertion(this,
         object : TypeSafeMatcher<View>() {
             override fun describeTo(description: Description) {
-                description.appendText("perform funtion containsDrawable ${Environment.currentFunctionName}")
+                description.appendText("perform function containsDrawable ${Environment.currentFunctionName}")
             }
 
             override fun matchesSafely(view: View): Boolean {
